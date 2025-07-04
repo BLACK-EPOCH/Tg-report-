@@ -91,5 +91,6 @@ def main():
     display_loading_effect(duration=3, message="Preparing to launch reports")
     simulate_report_attacks(report_type, link)
 
-if name == "main":
+# ✅ সঠিকভাবে এন্ট্রি পয়েন্ট
+if __name__ == "__main__":
     main()
